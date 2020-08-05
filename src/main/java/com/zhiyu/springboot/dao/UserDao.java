@@ -4,6 +4,7 @@ import java.util.List;
 
 public interface UserDao {
     List<User> findAllUsers();
+    User getUserById(Integer id);
     int insertUser(User User);
     int updateUser(User User);
     int deleteUser(Integer id);
