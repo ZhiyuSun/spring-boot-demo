@@ -1,27 +1,19 @@
-2020-08-05 21:14:34.653  INFO 66644 --- [main] c.z.springboot.SpringbootApplication     : Starting SpringbootApplication on BKJFSH-18-20064 with PID 66644 (E:\spring-boot-demo\target\classes started by BKJFSH in E:\spring-boot-demo)
-2020-08-05 21:14:34.658  INFO 66644 --- [main] c.z.springboot.SpringbootApplication     : No active profile set, falling back to default profiles: default
-2020-08-05 21:14:36.032  INFO 66644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-08-05 21:14:36.051  INFO 66644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-05 21:14:36.052  INFO 66644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
-2020-08-05 21:14:36.078  INFO 66644 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\programs\java\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\programs\Git\cmd;D:\programs\nodejs\;C:\salt;C:\ProgramData\chocolatey\bin;D:\go\bin;%ERLANG_HOME%\bin;%RABBITMQ_SERVER%\sbin;%GRADLE_HOME%\bin;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;D:\python\python36\Scripts\;D:\python\python36\;C:\Users\BKJFSH\AppData\Local\Microsoft\WindowsApps;C:\Users\BKJFSH\AppData\Roaming\npm;D:\programs\mysql-5.7.27\bin;C:\Users\BKJFSH\go\bin;D:\programs\Microsoft VS Code\bin;.]
-2020-08-05 21:14:36.171  INFO 66644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-05 21:14:36.172  INFO 66644 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1445 ms
-2020-08-05 21:14:36.200  INFO 66644 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
-2020-08-05 21:14:36.204  INFO 66644 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
-2020-08-05 21:14:36.204  INFO 66644 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2020-08-05 21:14:36.204  INFO 66644 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
-2020-08-05 21:14:36.204  INFO 66644 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
-2020-08-05 21:14:36.632  INFO 66644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-08-05 21:14:36.914  INFO 66644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-08-05 21:14:36.918  INFO 66644 --- [main] c.z.springboot.SpringbootApplication     : Started SpringbootApplication in 2.887 seconds (JVM running for 4.36)
-2020-08-05 21:14:50.965  INFO 66644 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-05 21:14:50.965  INFO 66644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-08-05 21:14:50.975  INFO 66644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2020-08-05 21:15:09.446  INFO 66644 --- [http-nio-8080-exec-4] c.z.s.controller.HelloController         : 这是一条 info 级别的日志
-2020-08-05 21:15:09.447 ERROR 66644 --- [http-nio-8080-exec-4] c.z.s.controller.HelloController         : 这是一条 error 级别的日志
-2020-08-05 21:15:09.447  WARN 66644 --- [http-nio-8080-exec-4] c.z.s.controller.HelloController         : 这是一条 warn 级别的日志
-2020-08-05 21:19:42.335  INFO 80276 --- [main] c.zhiyu.springboot.SpringBootTestDemo2   : Starting SpringBootTestDemo2 on BKJFSH-18-20064 with PID 80276 (started by BKJFSH in E:\spring-boot-demo)
-2020-08-05 21:19:42.337  INFO 80276 --- [main] c.zhiyu.springboot.SpringBootTestDemo2   : No active profile set, falling back to default profiles: default
-2020-08-05 21:19:44.906  INFO 80276 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-08-05 21:19:45.334  INFO 80276 --- [main] c.zhiyu.springboot.SpringBootTestDemo2   : Started SpringBootTestDemo2 in 3.338 seconds (JVM running for 4.436)
-2020-08-05 21:19:45.583  INFO 80276 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-06 15:11:34.391  INFO 36896 --- [main] c.z.springboot.SpringbootApplication     : Starting SpringbootApplication on BKJFSH-18-20064 with PID 36896 (E:\spring-boot-demo\target\classes started by BKJFSH in E:\spring-boot-demo)
+2020-08-06 15:11:34.400  INFO 36896 --- [main] c.z.springboot.SpringbootApplication     : No active profile set, falling back to default profiles: default
+2020-08-06 15:11:35.891  INFO 36896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-06 15:11:35.907  INFO 36896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-06 15:11:35.907  INFO 36896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-08-06 15:11:35.913  INFO 36896 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\programs\java\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\programs\Git\cmd;D:\programs\nodejs\;C:\salt;C:\ProgramData\chocolatey\bin;D:\go\bin;C:\Program Files\erl10.7\bin;D:\programs\rabbitmq\rabbitmq_server-3.8.5\sbin;D:\programs\gradle-6.5.1\bin;D:\programs\java\bin;D:\programs\java\jre\bin;D:\maven\apache-maven-3.6.3\bin;D:\python\python36\Scripts\;D:\python\python36\;C:\Users\BKJFSH\AppData\Local\Microsoft\WindowsApps;C:\Users\BKJFSH\AppData\Roaming\npm;D:\programs\mysql-5.7.27\bin;C:\Users\BKJFSH\go\bin;D:\programs\Microsoft VS Code\bin;.]
+2020-08-06 15:11:35.989  INFO 36896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-06 15:11:35.989  INFO 36896 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1520 ms
+2020-08-06 15:11:36.013  INFO 36896 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-08-06 15:11:36.017  INFO 36896 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-08-06 15:11:36.017  INFO 36896 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-08-06 15:11:36.017  INFO 36896 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-08-06 15:11:36.017  INFO 36896 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-08-06 15:11:36.489  INFO 36896 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-06 15:11:36.740  INFO 36896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-06 15:11:36.743  INFO 36896 --- [main] c.z.springboot.SpringbootApplication     : Started SpringbootApplication in 2.909 seconds (JVM running for 4.291)
+2020-08-06 15:11:46.643  INFO 36896 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-06 15:11:46.644  INFO 36896 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-06 15:11:46.649  INFO 36896 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
